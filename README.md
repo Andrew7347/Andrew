@@ -155,7 +155,9 @@ Below you will find all metrics collected from the individual portfolio composit
 - Company name, ISIN/ticker, country, weight, sector
 - Historical prices, total returns PX_LAST, TOT_RETURN_INDEX_GROSS_DVDS, Yahoo/AlphaVantage
 
-(Insert Image)))))))))))))))))))))))))))))))
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/99560dec-c783-4f52-99f6-c02ec8504dfd" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/4da331cb-94c7-4ca9-b3e7-5e07600bd209" />
+
 
 Now it is imperative to collect a plethora of Macro and Micro metrics for comparison and relativistic mapping between our fund and various asset classes.
 

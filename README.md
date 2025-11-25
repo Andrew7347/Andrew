@@ -181,7 +181,7 @@ Here is data regarding Fama-French Factor series parameter values for discrete d
 mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
 
 
-With static holdings, you can:
+With static holdings, we can:
 
 Compute and visualise risk metrics (VaR, vol, correlations)
 Run mean–variance optimisation on current assets
@@ -194,3 +194,26 @@ If you later get historical holdings, you can upgrade the analysis to include:
 Brinson attribution
 True rolling factor exposures
 Turnover & transaction cost analysis
+
+Commands situated below highlight efficiency utilisation concerning data extraction, superceding manual extraction which is time consuming..
+
+**last_price**
+=BDH("TICKER","PX_LAST","2022-11-07","2025-11-04","Dir=V","Dts=S","Fill=C","Sort=A")
+
+**Bid_price**
+=BDH("TICKER","BID","2022-11-07","2025-11-04","Dir=V","Dts=S","Fill=C","Sort=A")
+
+**Ask_price**
+=BDH("TICKER","ASK","2022-11-07","2025-11-04","Dir=V","Dts=S","Fill=C","Sort=A")
+
+**Volume**
+=BDH("TICKER","VOLUME","2022-11-07","2025-11-04","Dir=V","Dts=S","Fill=C","Sort=A")
+
+**P/E Ratio**
+=BDH("Equity", "PE_RATIO", "01/07/2022", "04/07/2025", "PERIOD=Q", "FILL=PREV")
+
+**P/B Ratio**
+=BDH("Equity", "PX_TO_BOOK_RATIO", "01/07/2022", "04/07/2025", "PERIOD=Q", "FILL=PREV")
+
+
+
